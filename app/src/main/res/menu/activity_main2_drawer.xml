@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_whatsapp"
+            android:title="WhatsApp Status" />
+        <item
+            android:id="@+id/nav_dm"
+            android:title="Whatsapp Message" />
+        <item
+            android:id="@+id/nav_bwhatsapp"
+            android:title="Business WhatsApp Status" />
+        <item
+            android:id="@+id/nav_story"
+            android:title="Instagram Story"
+            android:visible="false"/>
+        <item
+            android:id="@+id/GB"
+            android:title="GB WhatsApp Status" />
+        <item
+            android:id="@+id/bg_service"
+            android:title="Settings" />
+        <item
+            android:id="@+id/follow"
+            android:title="Follow Us" />
+
+    </group>
+
+
+</menu>

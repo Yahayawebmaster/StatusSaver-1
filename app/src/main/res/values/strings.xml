@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Status saver</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="behavior_image_only">Image Only</string>
+    <string name="behavior_video_only">Video Only</string>
+    <string name="behavior_both">Both</string>
+
+    //remove from comments and enable if you are testing
+    <!--    <string name="admobAppId">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--    <string name="admobBanner1">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--    <string name="admobBanner2">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--    <string name="admobBanner3">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--    <string name="fullscreenAd">ca-app-pub-3940256099942544/1033173712</string>-->
+
+
+    //replace ad id with your own and comment if you are testing
+    <string name="admobAppId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admobBanner1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admobBanner2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admobBanner3">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="fullscreenAd">ca-app-pub-3940256099942544/1033173712</string>
+
+
+</resources>

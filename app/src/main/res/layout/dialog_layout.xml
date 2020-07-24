@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/behavior_image_only"
+            android:textSize="22sp"
+            android:theme="@style/RadioButton" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/behavior_video_only"
+            android:textSize="22sp"
+            android:theme="@style/RadioButton" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/both"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/behavior_both"
+            android:textSize="22sp"
+            android:theme="@style/RadioButton" />
+
+    </RadioGroup>
+
+</LinearLayout>
